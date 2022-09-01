@@ -1,0 +1,17 @@
+/*width serve para mexer na largura da imagem, e esse comando faz isso proporcionalmente
+também temos a height que mexe na altura, mas não é proporcional.*/
+/*Temos 3 formas de criar um css, pela tag img, mas vai todas as imagens juntas..
+A outra é criando uma class e uma criando um id # (id não é muito recomendada   )*/
+body {
+    background-color: aqua;
+}
+img {
+    width: 200px;
+    margin: auto;
+    display: block;
+    border: solid 1px #000000;
+    border-radius: 100px;
+}
+.txtprinc {
+    text-align: center;
+}
